@@ -10,6 +10,8 @@ router.get('/',(req, res) =>{
     //console.log(path.join(__dirname,'views/index.html'))
 })
 
+//Test
+
 router.get('/contact',(req, res) =>{
     res.render('contact', { title: 'Contact page'})
 })
